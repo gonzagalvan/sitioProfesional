@@ -26,28 +26,32 @@
 
     <!-- Header/Nav -->
     <header id="arriba">
-        <nav class="nav">
-            <div class="menu">
-                <div>
-                    <a href="../index.html"><img class="logo" src="../img/logo.png" alt="logo"></a>                              
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a href="../index.html"><img class="logo" src="../img/logo2.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Catálogo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pie">Contactanos</a>
+                        </li>
+                    </ul>
                 </div>
-                <ul>
-                    <li>
-                        <a href="../index.html">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="nosotros.html">Nosotros</a>
-                    </li>
-                    <li>
-                        <a href="servicios.html">Servicios</a>
-                    </li>
-                    <li>
-                        <a href="">Catálogo</a>
-                    </li>
-                    <li>
-                        <a href="#pie">Contactanos</a>
-                    </li>
-                </ul>
             </div>
         </nav>
     </header>
@@ -57,9 +61,7 @@
         <div class="mainBox">
             <img src="../img/imagenMain.jpg" alt="Imagen principal">
             <h1>¡Ropa Sostenible!</h1>
-            <a href="">Saber más</a>
         </div>
-
         <div class="destacados">
             <h2>Catálogo</h2>
             <div class="containerDestacados">
@@ -96,25 +98,32 @@
                     </div>
                 </div> 
             </div>
-    
-
+        </div>
+    </main>
         <!-- Footer -->
         <footer id="pie">
             <div class="containerFooter">
-                <h5>Contacto</h5>
-                <p>RenovaRopa</p>
-                <p>Dirección: Calle Principal 1170, CABA</p>
-                <p>Teléfono: (11) 3456-7890</p>
-                <p>Email: info@renovaropa.com</p>
+                <div class="marca">
+                    <h5>Contacto</h5>
+                    <p>RenovaRopa®</p>
+                </div>
+                <div class="contacto">
+                    <p>Dirección: Calle Principal 1170, CABA</p>
+                    <p>Teléfono: (11) 3456-7890</p>
+                    <p>Email: info@renovaropa.com</p>
+                </div>
+                <div class="logoFooter">
+                    <img src="../img/logo-blanco.png" alt="logo-blanco">
+                </div>
             </div>
         </footer>
 
+    <!-- jQuery (necesario para los componentes de JavaScript de Bootstrap) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-          <!-- js -->
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-               integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-          </script>
+    <!-- JavaScript de Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
           
-     </body>
+    </body>
 
 </html>
